@@ -1,0 +1,52 @@
+.body {
+  background-image: linear-gradient(to right, rgba(84, 240, 159, 0.79), rgba(97, 238, 152, 0.81), rgba(111, 235, 145, 0.83), rgba(124, 233, 138, 0.85), rgba(138, 231, 131, 0.87), rgba(151, 228, 124, 0.89), rgba(165, 226, 116, 0.9), rgba(178, 223, 109, 0.92), rgba(192, 221, 102, 0.94), rgba(205, 219, 95, 0.96), rgba(219, 216, 88, 0.98), rgb(232, 214, 81));
+  padding: 50px;
+}
+
+.main__header {
+    text-align: center;
+}
+
+.form__heading {
+    margin: 0;
+    padding: 0;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    border: none;
+    font-size: 50px;
+}
+
+.form__label {
+    font-size: 30px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form__mark {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.form__text {
+    border: 2px solid black;
+    margin-left: auto;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.form__button {
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: #aea4e3;
+}
+
+.form__button:hover {
+  background-color: #bdb8d3;
+}
